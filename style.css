@@ -1,0 +1,16 @@
+.container{
+
+    margin: auto;
+    border:2px royalblue;
+     border-style: solid;
+    
+    height: 100%;
+    width: 50%;
+     
+
+}
+.wrapper {
+    margin: auto;
+    text-align: center;
+}
+
