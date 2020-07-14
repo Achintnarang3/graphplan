@@ -1,49 +1,35 @@
 <!DOCTYPE html>
-  <html class="no-js">  
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<html lang="en">
 
-        <link rel="stylesheet" href="style.css">
-        <script type="text/javascript" src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
-        <script src="script.js"></script>
-        
-        
-       
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-    </head>
-    <body>
-    <nav class="navbar navbar-light d-inline-block align-top " style="font-size: 25px;width:100%; font-family: sans-serif; background-color: whitesmoke;">
-       Least time travel path project
-    </nav>
+          <script src="script.js"></script>
+    <script type="text/javascript" src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+   
+</head>
 
-
-        <br>
-        
-
-        
-        <div class="container">
-            
-           
-        </div>
-
-        <br>
-        <div class="wrapper">
-            <button type="button" class="btn btn-primary" id="generate-graph">Click for new Graph</button>
-        </div>
-       
-       
-        
-       
+<body>
+<nav class="navbar navbar-light " style="font-size: 25px; font-family: sans-serif; background-color: whitesmoke;">
 
     
+    Least time travel path project
 
+</nav>
+<br>
+<div id="container">
+</div>
+<br>
 
-    </body>
+<div class="wrapper">
+     
+    <button type="button" class="btn btn-danger" id="generate-graph">Get New Problem</button>
+</div>
+</body>
+
 </html>

@@ -1,11 +1,13 @@
-.container{
+#container{
 
-    margin: auto;
+    margin: auto !important;
     border:2px royalblue;
-     border-style: solid;
+     border-style: solid ;
+    height: 500px !important; 
     
-    height: 100%;
-    width: 50%;
+    
+
+    width: 50% !important; 
      
 
 }

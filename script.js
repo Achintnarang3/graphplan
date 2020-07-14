@@ -14,7 +14,7 @@ onload = function () {
 
         let vertices = [];
         for(let i=0;i<V;i++){
-            vertices.push({id:i, label: cities[i-1]});
+            vertices.push({id:i, label: cities[i]});
         }
 
         let edges = [];
@@ -33,7 +33,7 @@ onload = function () {
     genNew.onclick = function () {
         console.log("Hello from click");
         let data = createData();
-        var options=[];
+        var options={};
         var network = new vis.Network(container, data, options);
     };
 
