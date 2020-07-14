@@ -18,17 +18,36 @@
 <nav class="navbar navbar-light " style="font-size: 25px; font-family: sans-serif; background-color: whitesmoke;">
 
     
-    Least time travel path project
+    Shortest Distance 
 
 </nav>
 <br>
 <div id="container">
+    <div id="mynetwork" style=" border: 5px royalblue !important;">
+
+    </div>
+
+
+<div id="container2">
+    <span id="temptext2" style="width: 100%; text-align: center; font-size: x-large">
+    </span>
+    <span id="temptext" style="width: 100%; text-align: center; font-size: x-large">
+        Red link represents bus travel time : <i class="fa fa-bus" aria-hidden="true" style="color: orange"></i><br>
+        Green link represents flight travel time : <i class="fa fa-plane" aria-hidden="true" style="color: green"></i><br>
+        Click on solve to get Solution !!
+    </span>
+
+    <div id="mynetwork2" style="display: none;"></div>
+</div>
 </div>
 <br>
 
 <div class="wrapper">
      
     <button type="button" class="btn btn-danger" id="generate-graph">Get New Problem</button>
+    <br>
+    <br>
+    <button type="button" class="btn btn-success" id="solve">Solve</button>
 </div>
 </body>
 
